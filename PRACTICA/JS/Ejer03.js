@@ -1,5 +1,9 @@
 /* Ejericicio3 */
-console.log(typeof 42);
-console.log(typeof "Hola");
-console.log(typeof true);
-console.log(typeof undefined);
+let resultado = [
+  typeof 42,
+  typeof "Hola",
+  typeof true,
+  typeof undefined
+].join(", ");
+
+console.log(resultado);
